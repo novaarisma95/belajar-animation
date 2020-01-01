@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //time interval dalam detik
-        UIView.animate(withDuration: 2, animations:{
-            self.viewFrame.frame = CGRect(x: 80, y: 90, width: 100, height: 100)
+        UIView.animate(withDuration: 6, animations:{
+            self.viewFrame.frame = CGRect(x: 40, y: 40, width: 100, height: 100)
             
         })
 ///durasinya UIView.animate(withDuration: 2, animations:{
